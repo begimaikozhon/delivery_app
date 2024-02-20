@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:delivery_app/features/presentation/pages/landingpage/landing_page.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
@@ -15,7 +16,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     Timer(const Duration(seconds: 5), () {
       Navigator.of(context).pushReplacement(MaterialPageRoute(
-        builder: (BuildContext context) => BottomNavigationBar(),
+        builder: (BuildContext context) => const LandingPage(),
       ));
     });
   }
@@ -39,14 +40,5 @@ class _SplashScreenState extends State<SplashScreen> {
         ),
       ),
     );
-  }
-}
-
-class BottomNavigationBar extends StatefulWidget {
-  const BottomNavigationBar({super.key});
-
-  @override
-  State<StatefulWidget> createState() {
-    throw UnimplementedError();
   }
 }
