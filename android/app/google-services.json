@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "843801937585",
+    "project_id": "ffff-302ed",
+    "storage_bucket": "ffff-302ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843801937585:android:7ff8f6cca85562a642c490",
+        "android_client_info": {
+          "package_name": "com.example.delivery_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpZiBAYO7IylGDHof6k_nuSyW15PNQPgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843801937585:android:0ad17984c555262d42c490",
+        "android_client_info": {
+          "package_name": "com.example.neobook_challenge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpZiBAYO7IylGDHof6k_nuSyW15PNQPgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
